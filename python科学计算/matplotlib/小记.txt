@@ -1,0 +1,10 @@
+Python最常用的绘图库，提供了一整套十分适合交互式绘图的命令API，比较方便的就可以将其嵌入到GUI应用程序中。
+官网：http://matplotlib.org/
+
+Figure：面板(图)，matplotlib中的所有图像都是位于figure对象中，一个图像只能有一个figure对象。
+Subplot：子图，figure对象下创建一个或多个subplot对象(即axes)用于绘制图像。
+
+xlim、ylim控制图表的范围
+xticks、yticks控制图表刻度位置
+xticklabels、yticklabels控制图表刻度标签
+plt.savefit(文件名称)
